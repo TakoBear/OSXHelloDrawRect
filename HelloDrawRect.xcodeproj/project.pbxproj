@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0907FEE018FA252B00C494B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0907FEDF18FA252B00C494B2 /* Cocoa.framework */; };
+		0907FEEA18FA252B00C494B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0907FEE818FA252B00C494B2 /* InfoPlist.strings */; };
+		0907FEEC18FA252B00C494B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907FEEB18FA252B00C494B2 /* main.m */; };
+		0907FEF018FA252B00C494B2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0907FEEE18FA252B00C494B2 /* Credits.rtf */; };
+		0907FEF318FA252B00C494B2 /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907FEF218FA252B00C494B2 /* bearAppDelegate.m */; };
+		0907FEF618FA252B00C494B2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0907FEF418FA252B00C494B2 /* MainMenu.xib */; };
+		0907FEF818FA252B00C494B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0907FEF718FA252B00C494B2 /* Images.xcassets */; };
+		0907FEFF18FA252B00C494B2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0907FEFE18FA252B00C494B2 /* XCTest.framework */; };
+		0907FF0018FA252B00C494B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0907FEDF18FA252B00C494B2 /* Cocoa.framework */; };
+		0907FF0818FA252B00C494B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0907FF0618FA252B00C494B2 /* InfoPlist.strings */; };
+		0907FF0A18FA252B00C494B2 /* HelloDrawRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907FF0918FA252B00C494B2 /* HelloDrawRectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0907FF0118FA252B00C494B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0907FED418FA252B00C494B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0907FEDB18FA252B00C494B2;
+			remoteInfo = HelloDrawRect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0907FEDC18FA252B00C494B2 /* HelloDrawRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloDrawRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0907FEDF18FA252B00C494B2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0907FEE218FA252B00C494B2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0907FEE318FA252B00C494B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0907FEE418FA252B00C494B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0907FEE718FA252B00C494B2 /* HelloDrawRect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDrawRect-Info.plist"; sourceTree = "<group>"; };
+		0907FEE918FA252B00C494B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0907FEEB18FA252B00C494B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0907FEED18FA252B00C494B2 /* HelloDrawRect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloDrawRect-Prefix.pch"; sourceTree = "<group>"; };
+		0907FEEF18FA252B00C494B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0907FEF118FA252B00C494B2 /* bearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
+		0907FEF218FA252B00C494B2 /* bearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
+		0907FEF518FA252B00C494B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0907FEF718FA252B00C494B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0907FEFD18FA252B00C494B2 /* HelloDrawRectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloDrawRectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0907FEFE18FA252B00C494B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0907FF0518FA252B00C494B2 /* HelloDrawRectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDrawRectTests-Info.plist"; sourceTree = "<group>"; };
+		0907FF0718FA252B00C494B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0907FF0918FA252B00C494B2 /* HelloDrawRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDrawRectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0907FED918FA252B00C494B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907FEE018FA252B00C494B2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0907FEFA18FA252B00C494B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907FF0018FA252B00C494B2 /* Cocoa.framework in Frameworks */,
+				0907FEFF18FA252B00C494B2 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0907FED318FA252B00C494B2 = {
+			isa = PBXGroup;
+			children = (
+				0907FEE518FA252B00C494B2 /* HelloDrawRect */,
+				0907FF0318FA252B00C494B2 /* HelloDrawRectTests */,
+				0907FEDE18FA252B00C494B2 /* Frameworks */,
+				0907FEDD18FA252B00C494B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0907FEDD18FA252B00C494B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0907FEDC18FA252B00C494B2 /* HelloDrawRect.app */,
+				0907FEFD18FA252B00C494B2 /* HelloDrawRectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0907FEDE18FA252B00C494B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0907FEDF18FA252B00C494B2 /* Cocoa.framework */,
+				0907FEFE18FA252B00C494B2 /* XCTest.framework */,
+				0907FEE118FA252B00C494B2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0907FEE118FA252B00C494B2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0907FEE218FA252B00C494B2 /* AppKit.framework */,
+				0907FEE318FA252B00C494B2 /* CoreData.framework */,
+				0907FEE418FA252B00C494B2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0907FEE518FA252B00C494B2 /* HelloDrawRect */ = {
+			isa = PBXGroup;
+			children = (
+				0907FEF118FA252B00C494B2 /* bearAppDelegate.h */,
+				0907FEF218FA252B00C494B2 /* bearAppDelegate.m */,
+				0907FEF418FA252B00C494B2 /* MainMenu.xib */,
+				0907FEF718FA252B00C494B2 /* Images.xcassets */,
+				0907FEE618FA252B00C494B2 /* Supporting Files */,
+			);
+			path = HelloDrawRect;
+			sourceTree = "<group>";
+		};
+		0907FEE618FA252B00C494B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0907FEE718FA252B00C494B2 /* HelloDrawRect-Info.plist */,
+				0907FEE818FA252B00C494B2 /* InfoPlist.strings */,
+				0907FEEB18FA252B00C494B2 /* main.m */,
+				0907FEED18FA252B00C494B2 /* HelloDrawRect-Prefix.pch */,
+				0907FEEE18FA252B00C494B2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0907FF0318FA252B00C494B2 /* HelloDrawRectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0907FF0918FA252B00C494B2 /* HelloDrawRectTests.m */,
+				0907FF0418FA252B00C494B2 /* Supporting Files */,
+			);
+			path = HelloDrawRectTests;
+			sourceTree = "<group>";
+		};
+		0907FF0418FA252B00C494B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0907FF0518FA252B00C494B2 /* HelloDrawRectTests-Info.plist */,
+				0907FF0618FA252B00C494B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0907FEDB18FA252B00C494B2 /* HelloDrawRect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0907FF0D18FA252B00C494B2 /* Build configuration list for PBXNativeTarget "HelloDrawRect" */;
+			buildPhases = (
+				0907FED818FA252B00C494B2 /* Sources */,
+				0907FED918FA252B00C494B2 /* Frameworks */,
+				0907FEDA18FA252B00C494B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloDrawRect;
+			productName = HelloDrawRect;
+			productReference = 0907FEDC18FA252B00C494B2 /* HelloDrawRect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0907FEFC18FA252B00C494B2 /* HelloDrawRectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0907FF1018FA252B00C494B2 /* Build configuration list for PBXNativeTarget "HelloDrawRectTests" */;
+			buildPhases = (
+				0907FEF918FA252B00C494B2 /* Sources */,
+				0907FEFA18FA252B00C494B2 /* Frameworks */,
+				0907FEFB18FA252B00C494B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0907FF0218FA252B00C494B2 /* PBXTargetDependency */,
+			);
+			name = HelloDrawRectTests;
+			productName = HelloDrawRectTests;
+			productReference = 0907FEFD18FA252B00C494B2 /* HelloDrawRectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0907FED418FA252B00C494B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bear;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TakoBear;
+				TargetAttributes = {
+					0907FEFC18FA252B00C494B2 = {
+						TestTargetID = 0907FEDB18FA252B00C494B2;
+					};
+				};
+			};
+			buildConfigurationList = 0907FED718FA252B00C494B2 /* Build configuration list for PBXProject "HelloDrawRect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0907FED318FA252B00C494B2;
+			productRefGroup = 0907FEDD18FA252B00C494B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0907FEDB18FA252B00C494B2 /* HelloDrawRect */,
+				0907FEFC18FA252B00C494B2 /* HelloDrawRectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0907FEDA18FA252B00C494B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907FEEA18FA252B00C494B2 /* InfoPlist.strings in Resources */,
+				0907FEF818FA252B00C494B2 /* Images.xcassets in Resources */,
+				0907FEF018FA252B00C494B2 /* Credits.rtf in Resources */,
+				0907FEF618FA252B00C494B2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0907FEFB18FA252B00C494B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907FF0818FA252B00C494B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0907FED818FA252B00C494B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907FEF318FA252B00C494B2 /* bearAppDelegate.m in Sources */,
+				0907FEEC18FA252B00C494B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0907FEF918FA252B00C494B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907FF0A18FA252B00C494B2 /* HelloDrawRectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0907FF0218FA252B00C494B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0907FEDB18FA252B00C494B2 /* HelloDrawRect */;
+			targetProxy = 0907FF0118FA252B00C494B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0907FEE818FA252B00C494B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0907FEE918FA252B00C494B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0907FEEE18FA252B00C494B2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0907FEEF18FA252B00C494B2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0907FEF418FA252B00C494B2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0907FEF518FA252B00C494B2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0907FF0618FA252B00C494B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0907FF0718FA252B00C494B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0907FF0B18FA252B00C494B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0907FF0C18FA252B00C494B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0907FF0E18FA252B00C494B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDrawRect/HelloDrawRect-Prefix.pch";
+				INFOPLIST_FILE = "HelloDrawRect/HelloDrawRect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0907FF0F18FA252B00C494B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDrawRect/HelloDrawRect-Prefix.pch";
+				INFOPLIST_FILE = "HelloDrawRect/HelloDrawRect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0907FF1118FA252B00C494B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloDrawRect.app/Contents/MacOS/HelloDrawRect";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDrawRect/HelloDrawRect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloDrawRectTests/HelloDrawRectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0907FF1218FA252B00C494B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloDrawRect.app/Contents/MacOS/HelloDrawRect";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDrawRect/HelloDrawRect-Prefix.pch";
+				INFOPLIST_FILE = "HelloDrawRectTests/HelloDrawRectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0907FED718FA252B00C494B2 /* Build configuration list for PBXProject "HelloDrawRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0907FF0B18FA252B00C494B2 /* Debug */,
+				0907FF0C18FA252B00C494B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0907FF0D18FA252B00C494B2 /* Build configuration list for PBXNativeTarget "HelloDrawRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0907FF0E18FA252B00C494B2 /* Debug */,
+				0907FF0F18FA252B00C494B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0907FF1018FA252B00C494B2 /* Build configuration list for PBXNativeTarget "HelloDrawRectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0907FF1118FA252B00C494B2 /* Debug */,
+				0907FF1218FA252B00C494B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0907FED418FA252B00C494B2 /* Project object */;
+}
