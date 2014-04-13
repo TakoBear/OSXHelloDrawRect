@@ -18,6 +18,9 @@
 		0907FF0018FA252B00C494B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0907FEDF18FA252B00C494B2 /* Cocoa.framework */; };
 		0907FF0818FA252B00C494B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0907FF0618FA252B00C494B2 /* InfoPlist.strings */; };
 		0907FF0A18FA252B00C494B2 /* HelloDrawRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907FF0918FA252B00C494B2 /* HelloDrawRectTests.m */; };
+		0907FF1918FA258E00C494B2 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907FF1718FA258E00C494B2 /* MainWindowController.m */; };
+		0907FF1A18FA258E00C494B2 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0907FF1818FA258E00C494B2 /* MainWindowController.xib */; };
+		0907FF1E18FA266E00C494B2 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907FF1D18FA266E00C494B2 /* BackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		0907FF0518FA252B00C494B2 /* HelloDrawRectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDrawRectTests-Info.plist"; sourceTree = "<group>"; };
 		0907FF0718FA252B00C494B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0907FF0918FA252B00C494B2 /* HelloDrawRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDrawRectTests.m; sourceTree = "<group>"; };
+		0907FF1618FA258E00C494B2 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		0907FF1718FA258E00C494B2 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		0907FF1818FA258E00C494B2 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		0907FF1C18FA266E00C494B2 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		0907FF1D18FA266E00C494B2 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +123,11 @@
 		0907FEE518FA252B00C494B2 /* HelloDrawRect */ = {
 			isa = PBXGroup;
 			children = (
+				0907FF1B18FA25F500C494B2 /* Views */,
+				0907FF1418FA255D00C494B2 /* Controllers */,
+				0907FF1318FA255300C494B2 /* Recources */,
 				0907FEF118FA252B00C494B2 /* bearAppDelegate.h */,
 				0907FEF218FA252B00C494B2 /* bearAppDelegate.m */,
-				0907FEF418FA252B00C494B2 /* MainMenu.xib */,
 				0907FEF718FA252B00C494B2 /* Images.xcassets */,
 				0907FEE618FA252B00C494B2 /* Supporting Files */,
 			);
@@ -152,6 +162,33 @@
 				0907FF0618FA252B00C494B2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0907FF1318FA255300C494B2 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				0907FF1818FA258E00C494B2 /* MainWindowController.xib */,
+				0907FEF418FA252B00C494B2 /* MainMenu.xib */,
+			);
+			name = Recources;
+			sourceTree = "<group>";
+		};
+		0907FF1418FA255D00C494B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0907FF1618FA258E00C494B2 /* MainWindowController.h */,
+				0907FF1718FA258E00C494B2 /* MainWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0907FF1B18FA25F500C494B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0907FF1C18FA266E00C494B2 /* BackgroundView.h */,
+				0907FF1D18FA266E00C494B2 /* BackgroundView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +272,7 @@
 				0907FEF818FA252B00C494B2 /* Images.xcassets in Resources */,
 				0907FEF018FA252B00C494B2 /* Credits.rtf in Resources */,
 				0907FEF618FA252B00C494B2 /* MainMenu.xib in Resources */,
+				0907FF1A18FA258E00C494B2 /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0907FF1918FA258E00C494B2 /* MainWindowController.m in Sources */,
 				0907FEF318FA252B00C494B2 /* bearAppDelegate.m in Sources */,
+				0907FF1E18FA266E00C494B2 /* BackgroundView.m in Sources */,
 				0907FEEC18FA252B00C494B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +507,7 @@
 				0907FF0F18FA252B00C494B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0907FF1018FA252B00C494B2 /* Build configuration list for PBXNativeTarget "HelloDrawRectTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +516,7 @@
 				0907FF1218FA252B00C494B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
